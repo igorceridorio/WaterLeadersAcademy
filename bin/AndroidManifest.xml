@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waterleadersacademy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+        <activity
+            android:name="com.ds.waterleadersacademy.MenuActivity"
+            android:label="@string/app_name" 
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+             android:configChanges="orientation"
+            android:name="com.ds.waterleadersacademy.ShowerActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.ToiletActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.BathroomActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.KitchenActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.DishwasherActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.LaundryActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.SprinklersActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.MiscActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.OutdoorHoseActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.ReportActivity">
+        </activity>
+        
+        <activity 
+            android:label="@string/app_name"
+            android:name="com.ds.waterleadersacademy.ExtrasActivity">
+        </activity>
+        
+    </application>
+
+</manifest>

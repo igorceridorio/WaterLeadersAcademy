@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1, 2, 3"
+    android:padding="2dp" >
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+		    <ImageButton
+		        android:id="@+id/showerButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/shower_head"
+		        android:scaleType="centerInside"
+		        android:layout_column="1"
+		        android:layout_weight="1"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/shower_button"
+		        android:onClick="onClickShower"
+		        android:adjustViewBounds="true" />
+
+		    <ImageButton
+		        android:id="@+id/toiletButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/toilet"
+		        android:layout_column="2"
+		        android:layout_weight="1"
+		        android:scaleType="centerInside"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/toilet_button"
+		        android:onClick="onClickToilet"
+		        android:adjustViewBounds="true"  />
+
+		    <ImageButton
+		        android:id="@+id/bathroomSinkButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/bathroom_sink"
+		        android:layout_column="3"
+		        android:layout_weight="1"
+		        android:scaleType="centerInside"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/bathroomSink_button"
+		        android:onClick="onClickBathroom"
+		        android:adjustViewBounds="true"  />
+		    
+	</TableRow>
+	
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+		    <ImageButton
+		        android:id="@+id/kitchenSinkButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/kitchen_sink"
+		        android:layout_column="1"
+		        android:layout_weight="1"
+		        android:scaleType="centerInside"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/kitchenSink_button"
+		        android:onClick="onClickKitchen"
+		        android:adjustViewBounds="true" />
+
+		    <ImageButton
+		        android:id="@+id/dishwasherButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/dishwasher"
+		        android:layout_column="2"
+		        android:layout_weight="1"
+		        android:scaleType="fitCenter"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/dishwasher_button"
+		        android:onClick="onClickDishwasher"
+		        android:adjustViewBounds="true" />
+
+		    <ImageButton
+		        android:id="@+id/laundryButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/laundry"
+		        android:layout_column="3"
+		        android:layout_weight="1"
+		        android:scaleType="fitCenter"
+		        android:paddingTop="5dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingLeft="5dp"
+		        android:contentDescription="@string/laundry_button"
+		        android:onClick="onClickLaundry"
+		        android:adjustViewBounds="true" />
+		    
+	</TableRow>
+	
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+		    <ImageButton
+		        android:id="@+id/sprinklersButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_column="1"
+		        android:layout_weight="1"
+		        android:contentDescription="@string/sprinklers_button"
+		        android:onClick="onClickSprinklers"
+		        android:paddingBottom="5dp"
+		        android:paddingLeft="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingTop="5dp"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/sprinkler"
+		        android:adjustViewBounds="true" />
+		    
+		    <ImageButton
+		        android:id="@+id/miscButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_column="2"
+		        android:layout_weight="1"
+		        android:contentDescription="@string/misc_button"
+		        android:onClick="onClickMisc"
+		        android:paddingBottom="5dp"
+		        android:paddingLeft="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingTop="5dp"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/misc"
+		        android:adjustViewBounds="true" />
+		    
+		    <ImageButton
+		        android:id="@+id/outdoorHoseButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_column="3"
+		        android:layout_weight="1"
+		        android:contentDescription="@string/outdoorHose_button"
+		        android:onClick="onClickOutdoorHose"
+		        android:paddingBottom="5dp"
+		        android:paddingLeft="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingTop="5dp"
+		        android:scaleType="centerInside"
+		        android:src="@drawable/hose"
+		        android:adjustViewBounds="true" />
+		    
+	</TableRow>
+	
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0" >
+        
+		    <Button
+		        android:id="@+id/reportButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_column="1"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:text="@string/report_button"
+		        android:onClick="onClickReport" />
+	</TableRow>
+
+</TableLayout>

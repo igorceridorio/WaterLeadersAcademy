@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Water Leaders Academy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="shower_button">Shower</string>
+    <string name="avgShower_button">Average Shower\n(10 min)</string>
+    <string name="toilet_button">Toilet</string>
+    <string name="flush_button">Flush</string>
+    <string name="bathroomSink_button">Bathroom Sink</string>
+    <string name="kitchenSink_button">Kitchen Sink</string>
+    <string name="dishwasher_button">Dishwasher</string>
+    <string name="laundry_button">Laundry</string>
+    <string name="outdoorHose_button">Outdoor Hose</string>
+    <string name="misc_button">Miscellaneous</string>
+    <string name="sprinklers_button">Sprinklers</string>
+    <string name="report_button">Report</string>
+    <string name="add_button">Add</string>
+    <string name="or_text">OR</string>
+    <string name="home_button">Main Menu</string>
+    <string name="seekerBar_minutes">0 minutes</string>
+    <string name="seekerBar_gallons">0 gallons</string>
+    <string name="seekerBar_liters">0 liters</string>
+    <string name="toilet_water_usage">3.3 Gal. / 12.5 Liters (per flush)</string>
+    <string name="sprinkler_water_usage">6 Gal. / 22.7 Liters (per minute/per head)\n*Numbers may vary greatly by sprinkler systems</string>
+    <string name="shower_water_usage">4 Gal. / 15.1 Liters (per minute)</string>
+    <string name="hose_water_usage">6 Gal. / 22.7 Liters (per minute)</string>
+    <string name="laundry_water_usage">30 Gal. / 113.6 Liters</string>
+    <string name="sink_water_usage">3 Gal. / 11.3 Liters (per minute)</string>
+    <string name="dishwasher_water_usage">10 Gal. / 37.8 Liters</string>
+    <string name="title_report">YOUR WATER USAGE</string>
+    <string name="bathroomSink_report">BATHROOM SINK</string>
+    <string name="dishwasher_report">DISHWASHER</string>
+    <string name="kitchenSink_report">KITCHEN SINK</string>
+    <string name="laundry_report">LAUNDRY</string>
+    <string name="outdoorHose_report">OUTDOOR HOSE</string>
+    <string name="shower_report">SHOWER</string>
+    <string name="sprinklers_report">SPRINKLERS</string>
+    <string name="toilet_report">TOILET</string>
+    <string name="misc_report">MISCELLANEOUS</string>
+    <string name="xx">0</string>
+    <string name="dashes">--</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="total_gal">Total (Gal)</string>
+    <string name="total_lit">Total (Lit)</string>
+    <string name="total">TOTAL</string>
+    <string name="extras_button">How long would it take to fill ...</string>
+    <string name="clear_button">CLEAR ALL DATA</string>
+    <string name="myself_text">By myself -> </string>
+    <string name="community_text">My community -> </string>
+    <string name="memorial_pic">Memorial Stadium</string>
+    <string name="olympic_pic">Olympic Pool</string>
+    <string name="community_size_text">Community Size:</string>
+    <string name="update_button">Update</string>
+    <string name="ok">OK</string>
+    <string name="back_button">Back</string>
+    <string name="daily_use">Using this amount every day...</string>
+
+</resources>

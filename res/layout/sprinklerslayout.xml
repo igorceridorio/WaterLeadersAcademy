@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<Button
+        android:id="@+id/sprinklers_homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/home_button"
+         android:onClick="onClickMainMenu"/>
+	
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="50"
+        android:contentDescription="@string/sprinklers_button"
+        android:paddingBottom="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp"
+        android:src="@drawable/sprinkler" />
+
+    <SeekBar
+        android:id="@+id/sprinklers_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:max="60" />
+
+    <TextView
+        android:id="@+id/sprinklers_minutes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/seekerBar_minutes" />
+
+    <Button
+        android:id="@+id/sprinklers_addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="onClickAdd"
+        android:text="@string/add_button" />
+
+    <TextView
+        android:id="@+id/sprinklers_waterUsage_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:text="@string/sprinkler_water_usage" />
+
+</LinearLayout>

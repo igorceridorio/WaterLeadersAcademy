@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" >
+		    <Button
+		        android:id="@+id/extras_back_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/back_button"
+        		android:onClick="onClickMainMenu" />
+	
+	
+		
+		    <TextView
+		        android:id="@+id/title_row"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/extras_button" />
+	 	</LinearLayout>
+	
+			 
+		<ImageView
+		        android:id="@+id/memorial_pic"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="100"
+		        android:contentDescription="@string/memorial_pic"
+		        android:src="@drawable/memorial_stadium_resized"
+		        android:layout_gravity="center" />
+	
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:layout_gravity="center" >
+	        <TextView
+	            android:id="@+id/memorial_myself_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/myself_text" />
+	
+	        <TextView
+	            android:id="@+id/memorial_myself_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="  XX days, YY hours, ZZ min" />
+		</LinearLayout>
+
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:paddingBottom="15dp"
+	    android:layout_weight="1"
+	    android:layout_gravity="center" >
+	        <TextView
+	            android:id="@+id/memorial_community_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/community_text" />
+	
+	        <TextView
+	            android:id="@+id/memorial_community_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="  XX days, YY hours, ZZ min" />
+	    </LinearLayout>
+        
+	    <ImageView
+	        android:id="@+id/olympic_pic"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/olympic_pic"
+	        android:src="@drawable/olympic_pool_resized"
+	        android:layout_weight="100"
+		    android:layout_gravity="center" />
+
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:layout_gravity="center" >
+	        <TextView
+	            android:id="@+id/olympic_myself_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/myself_text" />
+	
+	        <TextView
+	            android:id="@+id/olympic_myself_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="  XX days, YY hours, ZZ min" />
+		</LinearLayout>
+
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:layout_gravity="center" >
+	        <TextView
+	            android:id="@+id/olympic_community_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/community_text" />
+	
+	        <TextView
+	            android:id="@+id/olympic_community_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="  XX days, YY hours, ZZ min" />
+		</LinearLayout>
+
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:layout_gravity="center" >
+	        <TextView
+	            android:id="@+id/community_size_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/community_size_text" />
+	
+	        <EditText
+	            android:id="@+id/community_size_number"
+	            android:layout_width="181dp"
+	            android:layout_height="wrap_content"
+	            android:inputType="numberSigned" />
+	       
+	      </LinearLayout>
+	      
+	        <Button
+	            android:id="@+id/update_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:layout_gravity="center"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:text="@string/update_button"
+	            android:onClick="onClickUpdate"/>		
+
+       
+
+
+</LinearLayout>
